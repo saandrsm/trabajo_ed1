@@ -37,6 +37,6 @@ elif(opc==4):
     y=int(input("Introduzca el segundo número:  "))
     print(f"{x}/{y}={x/y}")
 elif(opc==5):
-    x=int(input("Introduce un número:  "))
-    y=int(input("Introduce un número:  "))
+    x=int(input("Introduce el primer número:  "))
+    y=int(input("Introduce el segundo número:  "))
     print(f"{x}//{y}={x//y}")
