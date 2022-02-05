@@ -28,3 +28,7 @@ elif(opc==2):
     x=int(input("Introduzca el primer número:  "))
     y=int(input("Introduzca el segundo número: "))
     print(f"{x}-{y}={x-y}")
+elif(opc==3):
+    x=int(input("Introduzca el primer número:  "))
+    y=int(input("Introduzca el segundo número:  "))
+    print(f"{x}*{y}={x*y}")
