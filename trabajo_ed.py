@@ -48,3 +48,11 @@ elif(opc==7):
     x=int(input("Introduzca el primer número:  "))
     y=int(input("Introduzca el segundo número:  "))
     print(f"{x}**{y}={x**y}")
+elif(opc==8):
+   radio=int(input("iNTRODUCE EL RADIO DE UN CÍRCULO(cm): "))
+   print(f"El área de un círculo de radio {radio} es {3.14*radio**2/2}centímetros cuadrados")    
+elif(opc==9):
+    x=int(input("Introduce la base del triángulo:  "))
+    y=int(input("Introduce la altura del triangulo:  "))
+    print(f"{x}*{y}/2={x*y/2}")
+    
